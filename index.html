@@ -4,66 +4,14 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Redirecting...</title>
-<style>
-  /* Simple, professional styling */
-  body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #4a90e2, #50e3c2);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
-    text-align: center;
-  }
-  .container {
-    max-width: 400px;
-    padding: 2rem;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
-  }
-  h1 {
-    margin-bottom: 1rem;
-  }
-  p {
-    font-size: 1.1rem;
-  }
-  .countdown {
-    font-weight: 700;
-    font-size: 2rem;
-    margin-top: 1rem;
-  }
-  a {
-    color: #fff;
-    text-decoration: underline;
-  }
-</style>
+<script>
+  // Redirect immediately on page load
+  window.location.replace("https://otieu.com/4/9401619");
+</script>
 </head>
 <body>
-  <div class="container">
-    <h1>Redirecting you shortly...</h1>
-    <p>Please wait while we take you to the destination.</p>
-    <div class="countdown" id="countdown">3</div>
-    <p>If you are not redirected automatically, <a href="https://otieu.com/4/9401619" id="redirect-link">click here</a>.</p>
-  </div>
-
-<script>
-  // Countdown timer and redirect
-  let countdownNumber = 3;
-  const countdownElement = document.getElementById('countdown');
-  const redirectUrl = "https://otieu.com/4/9401619";
-
-  const interval = setInterval(() => {
-    countdownNumber--;
-    if (countdownNumber <= 0) {
-      clearInterval(interval);
-      window.location.href = redirectUrl;
-    } else {
-      countdownElement.textContent = countdownNumber;
-    }
-  }, 1000);
-</script>
+  <noscript>
+    JavaScript is required for redirecting. Please <a href="https://otieu.com/4/9401619">click here</a>.
+  </noscript>
 </body>
 </html>
